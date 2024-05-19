@@ -7,7 +7,7 @@ function App() {
 
   const handleGenerate = async () => {
     try {
-      const response = await fetch('letsabbreviate-production.up.railway.app/generate', {
+      const response = await fetch('https://letsabbreviate-production.up.railway.app/generate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
